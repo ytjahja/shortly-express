@@ -1,1 +1,1 @@
-# shortlyplus
+# shortly-express
