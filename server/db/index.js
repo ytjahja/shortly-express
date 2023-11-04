@@ -4,8 +4,11 @@ const Promise = require('bluebird');
 const database = 'shortly';
 
 const connection = mysql.createConnection({
-  user: 'student',
-  password: 'student'
+  host: '69.164.216.240',
+  port: 3306,
+  user: 'shortlymysql',
+  database: database,
+  password: '3@&VIU$U=y=R'
 });
 
 const db = Promise.promisifyAll(connection, { multiArgs: true });
